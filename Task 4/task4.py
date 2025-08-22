@@ -17,7 +17,7 @@ print(shoppingList)
 word = input("Enter a sentence: ")
 print(len(word.split()))
 
-# Task 4: Name Organozer
+# Task 4: Name Organizer
 userInput = input("Enter 5 names separated by spaces: ")
 userInput = userInput.lower().split()
 userInput.sort()
