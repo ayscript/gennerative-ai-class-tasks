@@ -21,7 +21,7 @@ print("You will need to register first\n")
 
 user_data["name"] = input("Enter your name: ")
 user_data["password"] = input("Set your password: ")
-user_data["account_balance"] = 5000
+user_data["account_balance"] = 9000
 confirm_password = input("Confirm your password: ")
 
 while confirm_password != user_data["password"]:
